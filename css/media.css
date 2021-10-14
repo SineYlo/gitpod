@@ -1,0 +1,13 @@
+/*|CM| Disable (mute) all animations and effects */
+@media (prefers-reduced-motion: reduce), (update: slow) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01s!important;
+    animation-delay: 0s!important;
+    animation-iteration-count: 1!important;
+    transition-duration: 0s!important;
+    transition-delay: 0s!important;
+    scroll-behavior: auto!important;
+  }
+}

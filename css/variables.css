@@ -1,0 +1,82 @@
+/*|=============== VARIABLES ===============|*/
+:root {
+
+  /*|========== FONT-FAMILY ==========|*/
+  /*|CM| Main font-family */
+  --primary-font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  /*|========== COLOR ==========|*/
+  /*|CM| Change favorite color (Smoky Black - 40) */
+  --hue-color: 40;
+  /*|CM| HSL color mode */
+  --primary-color: hsl(var(--hue-color) 20% 6%);
+  --second-color: hsl(var(--hue-color) 20% 6% / .7);
+  --third-color: hsl(var(--hue-color) 20% 6% / .6);
+  --fourth-color: hsl(0 0% 98%);
+  --fifth-color: hsl(36 100% 60%);
+  --sixth-color: hsl(30 2% 59%);
+  --seventh-color: hsl(1 100% 84%);
+  --eighth-color: hsl(20 97% 57%);
+  --ninth-color: hsl(214 100% 57%);
+  --tenth-color: hsl(36 100% 87%);
+  --eleventh-color: hsl(330 9% 96%);
+  --twelfth-color: hsl(17 16% 91%);
+  /*|CM| Universal colors */
+  --white-color: hsl(0 0% 100%);
+  --black-color: hsl(0 100% 0%);
+
+  /*|========== FONT-WEIGHT ==========|*/
+  /*|CM| Main font-weight */
+  --primary-font-weight: 700;
+
+  /*|========== FONT-SIZE ==========|*/
+  /*|CM| Base font-size ( .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...) */
+  --text-size-base: 1rem;
+  /*|CM| Different font-size options */
+  --text-size-min-huge: calc(var(--text-size-base) - .25rem);
+  --text-size-tiny: calc(var(--text-size-base) - .187rem);
+  --text-size-small: calc(var(--text-size-base) - .125rem);
+  --text-size-medium: calc(var(--text-size-base) + .125rem);
+  --text-size-big: calc(var(--text-size-base) + .25rem);
+  --text-size-large: calc(var(--text-size-base) + .438rem);
+  --text-size-huge: calc(var(--text-size-base) + .5rem);
+  --text-size-max-tiny: calc(var(--text-size-base) + 1rem);
+  --text-size-max-small: calc(var(--text-size-base) + 2.375rem);
+  --text-size-max-medium: calc(var(--text-size-base) + 4rem);
+
+  /*|========== LINE-HEIGHT ==========|*/
+  /*|CM| Main line-height */
+  --primary-lh: 1.5;
+  /*|CM| Additional lines-heights */
+  --second-lh: 1.43;
+  --third-lh: 1.1;
+  --fourth-lh: 1.39;
+  --fifth-lh: 1.25;
+  --sixth-lh: 1.18;
+  --seventh-lh: 1.33;
+  --eighth-lh: 1.14;
+  --ninth-lh: 1;
+
+  /*|========== BORDER-RADIUS ==========|*/
+  /*|CM| Main border-radius */
+  --primary-br: 12px;
+  /*|CM| Additional border-radiuses */
+  --second-br: 11px;
+  --third-br: 16px;
+  --fourth-br: 9px;
+  --fifth-br: 20px;
+  --sixth-br: 8px;
+
+  /*|========== BACKGROUND IMAGE ==========|*/
+  /*|CM| All background pictures are located here */
+  /*|CM| Здесь находятся все фоновые картинки */
+  --primary-bgi: ;
+
+  /*|========== GAP ==========|*/
+  /*|CM| Specify the same indentation between blocks */
+  --primary-gap: 26px;
+
+  /*|========== TRANSITION ==========|*/
+  /*|CM| Duration of effects (most effective .2 to .4s) */
+  --normal-transition-duration: .3s;
+}
