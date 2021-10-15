@@ -281,10 +281,79 @@
 }
 
 /*|=============== SECTION | REMOTE ===============|*/
+.section-remote_indent {
+  margin-bottom: 11.1875rem;
+}
 
+.section-remote__container {
+  min-height: 1207px;
+}
+
+.section-remote__title {
+  margin-bottom: 1.625rem;
+}
+
+.section-remote__picture {
+  margin-bottom: 1.5rem;
+}
+
+.section-remote__desc {
+  max-width: 877px;
+  margin: 0 auto 3rem;
+  font-size: var(--text-size-huge);
+  line-height: var(--seventh-lh);
+  color: var(--second-color);
+  text-align: center;
+}
+
+.section-remote__box {
+  text-align: center;
+  font-size: 0;
+}
+
+.section-remote__extension {
+  position: relative;
+  display: inline-block;
+  min-height: 47px;
+  padding: .4375rem .75rem .4375rem 2.875rem;
+  font-size: var(--text-size-medium);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--tenth-lh);
+  border-radius: var(--fourth-br);
+  background-color: var(--white-color);
+  background-position: 12px 11px;
+  background-repeat: no-repeat;
+  box-shadow: 0 .5px 2px var(--thirteenth-color);
+  transition: background-color var(--normal-transition-duration) ease-in-out;
+}
+
+.section-remote__extension_chrome {
+  min-width: 207px;
+  margin-right: 1rem;
+  background-image: url("../images/remote/chrome_logo.svg");
+}
+
+.section-remote__extension_firefox {
+  min-width: 199px;
+  background-image: url("../images/remote/firefox_logo.svg");
+}
+
+.section-remote__extension::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  border: 1px solid var(--black-color);
+  z-index: -1;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
-
+.section-remote__extension:hover {
+  background-color: var(--tenth-color);
+}
 
 /*|=============== SECTION | TESTIMONIALS  ===============|*/
 
