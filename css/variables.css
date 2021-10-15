@@ -21,6 +21,8 @@
   --tenth-color: hsl(36 100% 87%);
   --eleventh-color: hsl(330 9% 96%);
   --twelfth-color: hsl(17 16% 91%);
+  --thirteenth-color: hsl(0 100% 0% / .1);
+  --fourteenth-color: hsl(32 100% 50%);
   /*|CM| Universal colors */
   --white-color: hsl(0 0% 100%);
   --black-color: hsl(0 100% 0%);

@@ -15,18 +15,117 @@
 
 /*|=============== STYLING THE BASIC ELEMENTS AND MIXES ===============|*/
 /*|CM| Elements like body, svg, path, etc. are usually found here. */
+.body {
+  font-family: var(--primary-font-family);
+  font-size: var(--text-size-base);
+  background-color: var(--eleventh-color);
+}
 
+.container,
+.header-container,
+.footer-container {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1310px;
+}
+
+.header-container {
+  max-width: 1376px;
+}
+
+.footer-container {
+  max-width: 1408px;
+}
+
+.btn {
+  font-weight: var(--primary-font-weight);
+  color: var(--primary-color);
+  background-color: var(--fifth-color);
+  box-shadow: 0 1px 1px var(--thirteenth-color);
+  transition: background-color var(--normal-transition-duration) ease-in-out;
+}
+
+.title {
+  font-size: var(--text-size-max-small);
+  font-weight: var(--primary-font-weight);
+  color: var(--primary-color);
+  line-height: var(--seventh-lh);
+  text-align: center;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
-
+.btn:hover {
+  background-color: var(--white-color);
+}
 
 /*|=============== STYLING THE MAIN ELEMENTS ===============|*/
 /*|CM| This is usually where the header, section, and footer styles are located */
 /*|=============== SITE HEADER ===============|*/
+.site-header_indent {
+  margin-bottom: 2rem;
+}
 
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+.site-header__nav {
+  width: min(100%, 613px);
+}
+
+.site-header__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-header__link {
+  display: inline-block;
+  color: var(--second-color);
+  line-height: var(--primary-lh);
+  transition: color var(--normal-transition-duration) ease-in-out;
+}
+
+.site-header__link_hiring {
+  position: relative;
+}
+
+.site-header__link_hiring::after {
+  content: "*";
+  position: absolute;
+  top: -8px;
+  right: -11px;
+  font-size: var(--text-size-min-huge);
+  color: var(--fourteenth-color);
+}
+
+.site-header__btn {
+  min-width: 80px;
+  min-height: 32px;
+  padding: .375rem 1.375rem;
+  font-size: var(--text-size-small);
+  line-height: var(--seventh-lh);
+  color: var(--fourth-color);
+  border-radius: var(--primary-br);
+  background-color: var(--primary-color);
+  transition-property: color, background-color;
+  transition-duration: var(--normal-transition-duration);
+  transition-timing-function: ease-in-out;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.site-header__link:hover {
+  color: var(--primary-color);
+}
 
+.site-header__btn:hover {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+}
 
 /*|=============== SECTION | HERO ===============|*/
 
