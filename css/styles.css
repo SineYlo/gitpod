@@ -654,7 +654,138 @@
 }
 
 /*|=============== SITE FOOTER ===============|*/
+.site-footer__top {
+  background-color: var(--white-color);
+}
 
+.top-footer__container {
+  min-height: 412px;
+  padding: 3rem 14.3125rem 2rem;
+}
+
+.top-footer__panel {
+  display: flex;
+  justify-content: space-between;
+  min-height: 275px;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--twelfth-color);
+}
+
+.panel-footer__item:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+.panel-footer__title {
+  font-size: var(--text-size-tiny);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-lh);
+  color: var(--primary-color);
+}
+
+.panel-footer__link {
+  font-size: var(--text-size-tiny);
+  line-height: var(--primary-lh);
+  color: var(--second-color);
+  transition: color var(--normal-transition-duration) ease-in-out;
+}
+
+.panel-footer__link_careers {
+  position: relative;
+}
+
+.panel-footer__link_careers::after {
+  content: "*";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: var(--text-size-min-huge);
+  color: var(--fourteenth-color);
+}
+
+.top-footer__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-footer__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(100%, 176px);
+}
+
+.left-box__copy {
+  font-size: var(--text-size-tiny);
+  line-height: var(--primary-lh);
+  color: var(--second-color);
+}
+
+.box-footer__list {
+  display: flex;
+  justify-content: space-between;
+  width: min(100%, 104px);
+  height: 24px;
+}
+
+.box-footer__link {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  transition: opacity var(--normal-transition-duration) ease-in-out;
+}
+
+.box-footer__link_tw {
+  background: url("../images/social/twitter.svg") 0 0 no-repeat;
+}
+
+.box-footer__link_gh {
+  background: url("../images/social/github.svg") 0 0 no-repeat;
+}
+
+.box-footer__link_st {
+  background: url("../images/social/sticker.svg") 0 0 no-repeat;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 48px;
+}
+
+.bottom-footer__cookies {
+  line-height: var(--primary-lh);
+  color: var(--second-color);
+}
+
+.cookies-footer__link {
+  color: var(--third-color);
+  text-decoration: underline;
+}
+
+.bottom-footer__btn {
+  min-width: 163px;
+  min-height: 32px;
+  padding: .25rem 1.5rem;
+  line-height: var(--primary-lh);
+  color: var(--second-color);
+  border-radius: var(--sixth-br);
+  background-color: var(--fourth-color);
+  transition-property: background-color, color;
+  transition-duration: var(--normal-transition-duration);
+  transition-timing-function: ease-in-out;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.panel-footer__link:hover {
+  color: var(--primary-color);
+}
 
+.box-footer__link:hover {
+  opacity: .5;
+}
+
+.bottom-footer__btn:hover {
+  color: var(--primary-color);
+  background-color: var(--tenth-color);
+}
