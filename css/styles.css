@@ -460,10 +460,198 @@
 }
 
 /*|=============== SECTION | START ===============|*/
+.section-start_indent {
+  margin-bottom: 10rem;
+}
 
+.section-start__container {
+  min-height: 770px;
+}
+
+.section-start__title {
+  margin-bottom: 3rem;
+}
+
+.section-start__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-start__left,
+.section-start__right {
+  width: min(100%, 642px);
+  min-height: 651px;
+  padding: 3.5rem 3.5rem 5.375rem;
+  border-radius: var(--fifth-br);
+  background-color: var(--white-color);
+}
+
+.left-start__title,
+.right-start__title {
+  margin-bottom: .5rem;
+  font-size: var(--text-size-max-tiny);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--fifth-lh);
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.left-start__desc {
+  margin-bottom: 3.875rem;
+  font-size: var(--text-size-huge);
+  line-height: var(--seventh-lh);
+}
+
+.left-start__desc,
+.right-start__desc {
+  text-align: center;
+  color: var(--second-color);
+}
+
+.right-start__desc {
+  margin-bottom: 2rem;
+  font-size: var(--text-size-large);
+  line-height: var(--fourth-lh);
+}
+
+.left-start__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.left-start__item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.left-start__link {
+  display: inline-block;
+  min-width: 262px;
+  min-height: 46px;
+  padding: .875rem 2rem 1rem 4.8125rem;
+  font-size: var(--text-size-small);
+  font-weight: var(--primary-font-weight);
+  color: var(--white-color);
+  line-height: var(--eighth-lh);
+  border-radius: var(--primary-br);
+  box-shadow: 0 1px 1px var(--thirteenth-color);
+  transition: opacity var(--normal-transition-duration) ease-in-out;
+}
+
+.left-start__link_gitlab {
+  background: var(--eighth-color) url("../images/start/gitlab.svg") 33px 9px no-repeat;
+}
+
+.left-start__link_github {
+  background: var(--black-color) url("../images/start/github.svg") 33px 9px no-repeat;
+}
+
+.left-start__link_bitbucket {
+  background: var(--ninth-color) url("../images/start/bitbucket.svg") 33px 9px no-repeat;
+}
+
+.left-start__text {
+  margin-bottom: .375rem;
+  font-size: var(--text-size-huge);
+  line-height: var(--seventh-lh);
+  color: var(--second-color);
+  text-align: center;
+}
+
+.left-start__prefix-box {
+  text-align: center;
+}
+
+.left-start__prefix {
+  padding: 0 1rem;
+  font-size: var(--text-size-huge);
+  line-height: var(--seventh-lh);
+  color: var(--second-color);
+  border-radius: var(--primary-br);
+  background-color: var(--tenth-color);
+}
+
+.right-start__item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 56px;
+  padding: .75rem .75rem .75rem 3.6875rem;
+  border-radius: var(--primary-br);
+  background-color: var(--fourth-color);
+}
+
+.right-start__item:not(:last-child) {
+  margin-bottom: .75rem;
+}
+
+.item-start__language {
+  display: inline-block;
+  font-size: var(--text-size-big);
+  color: var(--second-color);
+  line-height: var(--text-size-big);
+}
+
+.item-start__language::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+}
+
+.item-start__language_typescript::before {
+  background: url("../images/start/typescript.svg");
+}
+
+.item-start__language_python::before {
+  background: url("../images/start/python.svg");
+}
+
+.item-start__language_go::before {
+  background: url("../images/start/go.svg");
+}
+
+.item-start__language_rust::before {
+  background: url("../images/start/rust.svg");
+}
+
+.item-start__language_java::before {
+  background: url("../images/start/java.svg");
+}
+
+.item-start__language_svelte::before {
+  background: url("../images/start/svelte.svg");
+}
+
+.item-start__launch {
+  display: inline-block;
+  min-width: 143px;
+  min-height: 32px;
+  padding: .4375rem .75rem .5625rem;
+  font-size: var(--text-size-small);
+  line-height: var(--eighth-lh);
+  color: var(--white-color);
+  border-radius: var(--primary-br);
+  background-color: var(--primary-color);
+  transition-property: background-color, color;
+  transition-duration: var(--normal-transition-duration);
+  transition-timing-function: ease-in-out;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.left-start__link:hover {
+  opacity: .7;
+}
 
+.item-start__launch:hover {
+  color: var(--primary-color);
+  background-color: var(--tenth-color);
+}
 
 /*|=============== SITE FOOTER ===============|*/
 
