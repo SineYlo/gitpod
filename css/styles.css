@@ -128,14 +128,157 @@
 }
 
 /*|=============== SECTION | HERO ===============|*/
+.section-hero_indent {
+  margin-bottom: 1.125rem;
+}
 
+.section-hero__container {
+  min-height: 1262px;
+  padding-top: 8.0625rem;
+  background: url("../images/hero/hero_picture.jpg") right 20px no-repeat;
+}
 
+.section-hero__title {
+  margin-bottom: 2.4375rem;
+  font-size: var(--text-size-max-medium);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--third-lh);
+}
 
-/*|=============== SECTION | DEVELOPMENT ===============|*/
+.section-hero__desc {
+  max-width: 460px;
+  margin-bottom: 3rem;
+  font-size: var(--text-size-large);
+  line-height: var(--fourth-lh);
+  color: var(--second-color);
+}
 
+.section-hero__box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.box-hero__btn {
+  min-width: 160px;
+  min-height: 46px;
+  margin-right: 1.5rem;
+  padding: .6875rem 2.875rem .75rem 2.875rem;
+  font-size: var(--text-size-medium);
+  line-height: var(--fifth-lh);
+  border-radius: var(--third-br);
+}
+
+.box-hero__text {
+  color: var(--second-color);
+  line-height: var(--primary-lh);
+}
+
+.section-hero__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 160px;
+  margin-bottom: 19.0625rem;
+  padding: 0 .5rem;
+}
+
+.section-hero__link {
+  display: inline-block;
+  width: 29px;
+  min-height: 29px;
+  transition: opacity var(--normal-transition-duration) ease-in-out;
+}
+
+.section-hero__link_gl {
+  background: url("../images/hero/gitlab_logo.svg") 0 0 no-repeat;
+}
+
+.section-hero__link_gh {
+  background: url("../images/hero/github_logo.svg") 0 0 no-repeat;
+}
+
+.section-hero__link_bb {
+  background: url("../images/hero/bitbucket_logo.svg") 0 0 no-repeat;
+}
+
+.section-hero__slogan {
+  max-width: 1083px;
+  margin: 0 auto;
+  font-size: var(--text-size-max-small);
+  line-height: var(--sixth-lh);
+  text-align: center;
+}
+
+.slogan-hero__action {
+  font-weight: var(--primary-font-weight);
+}
+
+.slogan-hero__line {
+  text-decoration: line-through;
+  color: var(--sixth-color);
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.section-hero__link:hover {
+  opacity: .5;
+}
 
+/*|=============== SECTION | DEVELOPMENT ===============|*/
+.section-development_indent {
+  margin-bottom: 11.0625rem;
+}
+
+.section-development__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 792px;
+}
+
+.section-development__left {
+  max-width: 655px;
+}
+
+.left-development__title {
+  margin-bottom: .5rem;
+  font-size: var(--text-size-max-tiny);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--fifth-lh);
+  color: var(--primary-color);
+}
+
+.left-development__desc {
+  margin-bottom: 9.6875rem;
+  font-size: var(--text-size-huge);
+  line-height: var(--seventh-lh);
+  color: var(--second-color);
+}
+
+.left-development__more {
+  min-width: 162px;
+  min-height: 32px;
+  margin-right: 1rem;
+  padding: .4375rem 1.5rem;
+  font-size: var(--text-size-small);
+  border-radius: var(--second-br);
+}
+
+.left-development__docs {
+  min-width: 146px;
+  min-height: 32px;
+  padding: .4375rem 1.5rem;
+  font-size: var(--text-size-small);
+  font-weight: var(--primary-font-weight);
+  border-radius: var(--second-br);
+  background-color: var(--seventh-color);
+  transition: background-color var(--normal-transition-duration) ease-in-out;
+}
+
+/*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.left-development__docs:hover {
+  background-color: var(--white-color);
+}
 
 /*|=============== SECTION | REMOTE ===============|*/
 
