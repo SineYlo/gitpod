@@ -1,3 +1,18 @@
+/*|=============== OUT-OF-THE-BOX CSS SOLUTIONS ===============|*/
+/*|CM| Used to hide elements without breaking accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+}
+
+
 /*|=============== STYLING THE BASIC ELEMENTS AND MIXES ===============|*/
 /*|CM| Elements like body, svg, path, etc. are usually found here. */
 

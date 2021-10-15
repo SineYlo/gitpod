@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   // * ==========> VARIABLES <========== * //
-  // * ==========> ПЕРЕМЕННЫЕ <========== * //
 
-  // |FYI|: Basic settings
-  // |FYI|: Основные настройки
+
+  // |FYI|: Configuring the Glide.js plugin
+  new Glide('.glide').mount()
 
 
 

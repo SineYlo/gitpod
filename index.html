@@ -47,34 +47,548 @@
 <body class="body">
   <!--#========== SITE HEADER ==========#-->
   <header class="site-header">
-
+    <div class="header-container site-header__container">
+      <a class="site-header__logo" href="#">
+        <img src="images/general/logo_header.svg" alt="Gitpod logo.">
+      </a>
+      <nav class="site-header__nav">
+        <ul class="site-header__list">
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">Features</a>
+          </li>
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">Pricing</a>
+          </li>
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">Blog</a>
+          </li>
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">Docs</a>
+          </li>
+          <li class="site-header__item">
+            <a class="site-header__link" href="#">Changelog</a>
+          </li>
+          <li class="site-header__item">
+            <a class="site-header__link site-header__link_hiring" href="#">We&rsquo;re hiring</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="site-header__btn" type="button">Login</button>
+    </div>
   </header>
   <!--#========== SITE MAIN ==========#-->
   <main class="site-main">
     <!--#========== SECTION | HERO ==========#-->
     <section class="section-hero">
-
+      <div class="container section-hero__container">
+        <h1 class="visually-hidden">
+          A program that helps automate the process of writing code
+        </h1>
+        <h2 class="section-hero__title">
+          Always <br> ready to&nbsp;Code.
+        </h2>
+        <p class="section-hero__desc">
+          Spin up&nbsp;fresh, automated dev environments for each task, in&nbsp;the cloud, in&nbsp;seconds.
+        </p>
+        <div class="section-hero__box box-hero">
+          <button class="box-hero__btn btn" type="button">Try Now</button>
+          <p class="box-hero__text">
+            Open a&nbsp;workspace. <br> Start from any Git context.
+          </p>
+        </div>
+        <ul class="section-hero__list">
+          <li class="section-hero__item">
+            <a class="section-hero__link section-hero__link_gl" href="#" target="_blank" rel="noopener" aria-label="Gitlab page"></a>
+          </li>
+          <li class="section-hero__item">
+            <a class="section-hero__link section-hero__link_gh" href="#" target="_blank" rel="noopener" aria-label="Github page"></a>
+          </li>
+          <li class="section-hero__item">
+            <a class="section-hero__link section-hero__link_bb" href="#" target="_blank" rel="noopener" aria-label="Bitbucket page"></a>
+          </li>
+        </ul>
+        <p class="section-hero__slogan slogan-hero">
+          <span class="slogan-hero__action">Select project</span>, <br> check dependencies, checkout branch, view readme.txt, install tools, run build, run test, <span class="slogan-hero__action">start coding</span>.
+        </p>
+      </div>
     </section>
     <!--#========== SECTION | DEVELOPMENT ==========#-->
     <section class="section-development">
-
+      <div class="container section-development__container">
+        <div class="section-development__left left-development">
+          <h2 class="left-development__title">
+            Think CI/CD for dev environments
+          </h2>
+          <p class="left-development__desc">
+            We&nbsp;invented prebuilds so&nbsp;application code, configuration and infrastructure can all be&nbsp;stored as&nbsp;machine-executable code in&nbsp;your git repositories and applied to&nbsp;dev environments automatically and continuously.
+          </p>
+          <button class="left-development__btn btn" type="button">More on&nbsp;prebuilds</button>
+          <button class="left-development__btn" type="button">Documentation</button>
+        </div>
+        <picture>
+          <source srcset="images/development/code_picture.avif, images/development/code_picture@2x.avif 2x, images/development/code_picture@3x.avif 3x" type="image/avif">
+          <source srcset="images/development/code_picture.webp, images/development/code_picture@2x.webp 2x, images/development/code_picture@3x.webp 3x" type="image/webp">
+          <img class="section-development__picture" src="images/development/code_picture.png" srcset="images/development/code_picture@2x.png 2x, images/development/code_picture@3x.png 3x" alt="The picture shows how the program works.">
+        </picture>
+      </div>
     </section>
     <!--#========== SECTION | REMOTE ==========#-->
     <section class="section-remote">
-
+      <div class="container section-remote__container">
+        <h2 class="section-remote__title title">
+          Remote-first. Secure by&nbsp;design.
+        </h2>
+        <picture>
+          <source srcset="images/remote/remote_picture.avif, images/remote/remote_picture@2x.avif 2x, images/remote/remote_picture@3x.avif 3x" type="image/avif">
+          <source srcset="images/remote/remote_picture.webp, images/remote/remote_picture@2x.webp 2x, images/remote/remote_picture@3x.webp 3x" type="image/webp">
+          <img class="section-remote__picture" src="images/remote/remote_picture.png" srcset="images/remote/remote_picture@2x.png 2x, images/remote/remote_picture@3x.png 3x" alt="The picture shows how remote access is performed.">
+        </picture>
+        <p class="section-remote__desc">
+          You no&nbsp;longer need an&nbsp;over-powered laptop to&nbsp;code, Gitpod works just as&nbsp;smoothly on&nbsp;a&nbsp;Chromebook or&nbsp;iPad. All you need is&nbsp;a&nbsp;browser. Gitpod centralizes all source code and never stores it&nbsp;on&nbsp;insecure machines and networks.
+        </p>
+        <a class="section-remote__extension section-remote__extension_chrome" href="#" target="_blank" rel="noopener">Chrome Extension</a>
+        <a class="section-remote__extension section-remote__extension_firefox" href="#" target="_blank" rel="noopener">Firefox Extension</a>
+      </div>
     </section>
     <!--#========== SECTION | TESTIMONIALS ==========#-->
     <section class="section-testimonials">
-
+      <div class="container section-testimonials__container">
+        <h2 class="section-testimonials__title title">
+          Used by&nbsp;400,000+&nbsp;developers.
+        </h2>
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide slide-glide glide__slide_ben">
+                <p class="slide-glide__text slide-glide__text_indent">
+                  GitPod is&nbsp;incredibly cool.
+                </p>
+                <p class="slide-glide__text">
+                  In&nbsp;my&nbsp;opinion, this is&nbsp;a&nbsp;big step in&nbsp;open source software contribution. I&rsquo;m excited to&nbsp;see where we&nbsp;go&nbsp;from here.
+                </p>
+                <div class="slide-glide__user user-glide">
+                  <picture>
+                    <source srcset="images/testimonials/avatar_ben.avif, images/testimonials/avatar_ben@2x.avif 2x, images/testimonials/avatar_ben@3x.avif 3x" type="image/avif">
+                    <source srcset="images/testimonials/avatar_ben.webp, images/testimonials/avatar_ben@2x.webp 2x, images/testimonials/avatar_ben@3x.webp 3x" type="image/webp">
+                    <img src="images/testimonials/avatar_ben.png" srcset="images/testimonials/avatar_ben@2x.png 2x, images/testimonials/avatar_ben@3x.png 3x" alt="This is the avatar of a user named Ben.">
+                  </picture>
+                  <div class="user-glide__right right-glide">
+                    <strong class="right-glide__name">
+                      Ben Halpern
+                    </strong>
+                    <span class="right-glide__position">
+                      Creator and Co-founder
+                    </span>
+                    <span class="right-glide__company company-glide">
+                      @forem <span class="company-glide__union">and</span> @ThePracticalDev
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide slide-glide glide__slide_michael">
+                <p class="slide-glide__text slide-glide__text_indent">
+                  Let&rsquo;s say we&nbsp;were overwhelmed how smooth @gitpod workspaces creation &amp;&nbsp;own Docker image for workspaces worked.
+                </p>
+                <p class="slide-glide__text">
+                  Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my&nbsp;mind entirely, and that is&nbsp;hard ;)
+                </p>
+                <div class="slide-glide__user user-glide">
+                  <picture>
+                    <source srcset="images/testimonials/avatar_michael.avif, images/testimonials/avatar_michael@2x.avif 2x, images/testimonials/avatar_michael@3x.avif 3x" type="image/avif">
+                    <source srcset="images/testimonials/avatar_michael.webp, images/testimonials/avatar_michael@2x.webp 2x, images/testimonials/avatar_michael@3x.webp 3x" type="image/webp">
+                    <img src="images/testimonials/avatar_michael.png" srcset="images/testimonials/avatar_michael@2x.png 2x, images/testimonials/avatar_michael@3x.png 3x" alt="This is the avatar of a user named Michael.">
+                  </picture>
+                  <div class="user-glide__right right-glide">
+                    <strong class="right-glide__name">
+                      Michael Friedrich
+                    </strong>
+                    <span class="right-glide__position">
+                      Developer Evangelist
+                    </span>
+                    <span class="right-glide__company">
+                      @GitLab
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide slide-glide glide__slide_julius">
+                <p class="slide-glide__text">
+                  Look at&nbsp;any&nbsp;PR (pull request) in&nbsp;a&nbsp;full coding environment where you can edit, build, and test the&nbsp;PR code, by&nbsp;just prepending &laquo;gitpod.io#&raquo; to&nbsp;the PR&nbsp;URL. Super useful for reviewing/testing stuff without having to&nbsp;check it&nbsp;out locally!
+                </p>
+                <div class="slide-glide__user user-glide">
+                  <picture>
+                    <source srcset="images/testimonials/avatar_julius.avif, images/testimonials/avatar_julius@2x.avif 2x, images/testimonials/avatar_julius@3x.avif 3x" type="image/avif">
+                    <source srcset="images/testimonials/avatar_julius.webp, images/testimonials/avatar_julius@2x.webp 2x, images/testimonials/avatar_julius@3x.webp 3x" type="image/webp">
+                    <img src="images/testimonials/avatar_julius.png" srcset="images/testimonials/avatar_julius@2x.png 2x, images/testimonials/avatar_julius@3x.png 3x" alt="This is the avatar of a user named Julius.">
+                  </picture>
+                  <div class="user-glide__right right-glide">
+                    <strong class="right-glide__name">
+                      Julius Volz
+                    </strong>
+                    <span class="right-glide__position">
+                      Creator
+                    </span>
+                    <span class="right-glide__company">
+                      @PrometheusIO
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide slide-glide glide__slide_david">
+                <p class="slide-glide__text">
+                  I&nbsp;think I&rsquo;m in&nbsp;love with @gitpod. It&rsquo;s such a&nbsp;powerful tool. I&rsquo;ve learned so&nbsp;much in&nbsp;the past week just from stumbling across Github repos that interest me&nbsp;and appending &laquo;http://gitpod.io/#&raquo; to&nbsp;the URL. A+&nbsp;tool all around.
+                </p>
+                <div class="slide-glide__user user-glide">
+                  <picture>
+                    <source srcset="images/testimonials/avatar_david.avif, images/testimonials/avatar_david@2x.avif 2x, images/testimonials/avatar_david@3x.avif 3x" type="image/avif">
+                    <source srcset="images/testimonials/avatar_david.webp, images/testimonials/avatar_david@2x.webp 2x, images/testimonials/avatar_david@3x.webp 3x" type="image/webp">
+                    <img src="images/testimonials/avatar_david.png" srcset="images/testimonials/avatar_david@2x.png 2x, images/testimonials/avatar_david@3x.png 3x" alt="This is the avatar of a user named David.">
+                  </picture>
+                  <div class="user-glide__right right-glide">
+                    <strong class="right-glide__name">
+                      David Ressler
+                    </strong>
+                    <span class="right-glide__position">
+                      Engineering Manager
+                    </span>
+                    <span class="right-glide__company">
+                      @instagram
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="section-testimonials__list">
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_gl" target="_blank" rel="noopener" aria-label="Gitlab page">
+              <img src="images/partners/gitlab.svg" alt="Gitlab logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_fcc" target="_blank" rel="noopener" aria-label="freeCodeCamp page">
+              <img src="images/partners/freecodecamp.svg" alt="freeCodeCamp logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_dw" target="_blank" rel="noopener" aria-label="Dwave page">
+              <img src="images/partners/dwave.svg" alt="Dwave logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_gog" target="_blank" rel="noopener" aria-label="Google page">
+              <img src="images/partners/google.svg" alt="Google logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_az" target="_blank" rel="noopener" aria-label="Amazon page">
+              <img src="images/partners/amazon.svg" alt="Amazon logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_fb" target="_blank" rel="noopener" aria-label="Facebook page">
+              <img src="images/partners/facebook.svg" alt="Facebook logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_ub" target="_blank" rel="noopener" aria-label="Uber page">
+              <img src="images/partners/uber.svg" alt="Uber logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_oa" target="_blank" rel="noopener" aria-label="OpenAi page">
+              <img src="images/partners/openai.svg" alt="OpenAi logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_it" target="_blank" rel="noopener" aria-label="Intel page">
+              <img src="images/partners/intel.svg" alt="Intel logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_th" target="_blank" rel="noopener" aria-label="Theia page">
+              <img src="images/partners/theia.svg" alt="Theia logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_ci" target="_blank" rel="noopener" aria-label="Code institute page">
+              <img src="images/partners/codeinstitute.svg" alt="Code institute logo.">
+            </a>
+          </li>
+          <li class="section-testimonials__item">
+            <a href="#" class="section-testimonials__link section-testimonials__link_ad" target="_blank" rel="noopener" aria-label="4Geeks Academy page">
+              <img src="images/partners/academy.png" alt="4Geeks Academy logo.">
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
     <!--#========== SECTION | START ==========#-->
     <section class="section-start">
-
+      <div class="container section-start__container">
+        <h2 class="section-start__title title">
+          Get started now
+        </h2>
+        <div class="section-start__left left-start">
+          <h3 class="left-start__title">
+            Connect Git repository
+          </h3>
+          <p class="left-start__desc">
+            Select a&nbsp;Git provider to&nbsp;start with an&nbsp;existing project from any Git context.
+          </p>
+          <ul class="left-start__list">
+            <li class="left-start__item">
+              <a class="left-start__link left-start__link_gitlab" href="#" target="_blank" rel="noopener">
+                Continue with GitLab
+              </a>
+            </li>
+            <li class="left-start__item">
+              <a class="left-start__link left-start__link_github" href="#" target="_blank" rel="noopener">
+                Continue with GitHub
+              </a>
+            </li>
+            <li class="left-start__item">
+              <a class="left-start__link left-start__link_bitbucket" href="#" target="_blank" rel="noopener">
+                Continue with Bitbucket
+              </a>
+            </li>
+          </ul>
+          <p class="left-start__text">
+            Or&nbsp;prefix any GitLab, GitHub or&nbsp;Bitbucket URL with
+          </p>
+          <span class="left-start__prefix">
+            gitpod.io/#
+          </span>
+        </div>
+        <div class="section-start__right right-start">
+          <h3 class="right-start__title">
+            Launch an&nbsp;example workspace
+          </h3>
+          <p class="right-start__desc">
+            Dive into one of&nbsp;our example workspaces
+          </p>
+          <ul class="right-start__list">
+            <li class="right-start__item item-start">
+              <span class="item-start__language item-start__language_typescript">
+                Node or&nbsp;TypeScript
+              </span>
+              <a class="item-start__launch" href="#" target="_blank" rel="noopener">
+                Launch workspace
+              </a>
+            </li>
+            <li class="right-start__item item-start">
+              <span class="item-start__language item-start__language_python">
+                Python
+              </span>
+              <a class="item-start__launch" href="#" target="_blank" rel="noopener">
+                Launch workspace
+              </a>
+            </li>
+            <li class="right-start__item item-start">
+              <span class="item-start__language item-start__language_go">
+                Go
+              </span>
+              <a class="item-start__launch" href="#" target="_blank" rel="noopener">
+                Launch workspace
+              </a>
+            </li>
+            <li class="right-start__item item-start">
+              <span class="item-start__language item-start__language_rust">
+                Rust
+              </span>
+              <a class="item-start__launch" href="#" target="_blank" rel="noopener">
+                Launch workspace
+              </a>
+            </li>
+            <li class="right-start__item item-start">
+              <span class="item-start__language item-start__language_java">
+                Java
+              </span>
+              <a class="item-start__launch" href="#" target="_blank" rel="noopener">
+                Launch workspace
+              </a>
+            </li>
+            <li class="right-start__item item-start">
+              <span class="item-start__language item-start__language_svelte">
+                Svelte
+              </span>
+              <a class="item-start__launch" href="#" target="_blank" rel="noopener">
+                Launch workspace
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
   <!--#========== SITE FOOTER ==========#-->
   <footer class="site-footer">
-
+    <div class="site-footer__top top-footer">
+      <div class="container top-footer__container">
+        <div class="top-footer__panel panel-footer">
+          <ul class="panel-footer__list">
+            <li class="panel-footer__item">
+              <h2 class="panel-footer__title">
+                Gitpod
+              </h2>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Home
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Features
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Pricing
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Changelog
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Self-Hosted
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Gitpod vs GitHub Codespaces
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Status
+              </a>
+            </li>
+          </ul>
+          <ul class="panel-footer__list">
+            <li class="panel-footer__item">
+              <h2 class="panel-footer__title">
+                Developer
+              </h2>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Getting started
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Screencasts
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Blog
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Documentation
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Report a bug
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Community
+              </a>
+            </li>
+          </ul>
+          <ul class="panel-footer__list">
+            <li class="panel-footer__item">
+              <h2 class="panel-footer__title">
+                Company
+              </h2>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                About
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link panel-footer__link_careers" href="#">
+                Careers
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Contact
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Media Kit
+              </a>
+            </li>
+          </ul>
+          <ul class="panel-footer__list">
+            <li class="panel-footer__item">
+              <h2 class="panel-footer__title">
+                Legal
+              </h2>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Imprint
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link panel-footer__link_careers" href="#">
+                Terms of&nbsp;Service
+              </a>
+            </li>
+            <li class="panel-footer__item">
+              <a class="panel-footer__link" href="#">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="top-footer__box box-footer">
+          <div class="box-footer__left left-box">
+            <a class="left-box__logo" href="#">
+              <img src="images/general/logo_footer.svg" alt="Gitpod logo.">
+            </a>
+            <span class="left-box__copy">
+              Copyright &copy;&nbsp;2021 Gitpod
+            </span>
+          </div>
+          <ul class="box-footer__list">
+            <li class="box-footer__item">
+              <a class="box-footer__link box-footer__link_tw" href="#" target="_blank" rel="noopener" aria-label="Twitter page"></a>
+            </li>
+            <li class="box-footer__item">
+              <a class="box-footer__link box-footer__link_gh" href="#" target="_blank" rel="noopener" aria-label="Github page"></a>
+            </li>
+            <li class="box-footer__item">
+              <a class="box-footer__link box-footer__link_st" href="#" target="_blank" rel="noopener" aria-label="Sticker page"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__bottom bottom-footer">
+      <div class="footer-container">
+        <p class="bottom-footer__cookies cookies-footer">
+          This website uses cookies to&nbsp;enhance the user experience. Read our <a class="cookies-footer__link" href="#">privacy policy</a> for more info.
+        </p>
+        <button class="bottom-footer__btn" type="button">
+          Accept Cookies
+        </button>
+      </div>
+    </div>
   </footer>
   <!--#========== CONNECT SCRIPTS ==========#-->
   <!--PS: Connecting external libraries and tools -->

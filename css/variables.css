@@ -67,11 +67,6 @@
   --fifth-br: 20px;
   --sixth-br: 8px;
 
-  /*|========== BACKGROUND IMAGE ==========|*/
-  /*|CM| All background pictures are located here */
-  /*|CM| Здесь находятся все фоновые картинки */
-  --primary-bgi: ;
-
   /*|========== GAP ==========|*/
   /*|CM| Specify the same indentation between blocks */
   --primary-gap: 26px;
