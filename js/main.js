@@ -35,6 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
   ScrollReveal().reveal('.section-start__left', { delay: 400, origin: 'left', distance: '150px' })
   ScrollReveal().reveal('.section-start__right', { delay: 400, origin: 'right', distance: '150px' })
   ScrollReveal().reveal('.top-footer__panel', { delay: 400, origin: 'center', scale: 0.85 })
-  ScrollReveal().reveal('.top-footer__box', { delay: 450, origin: 'center', scale: 0.55 })
-  ScrollReveal().reveal('.footer-container', { delay: 450, origin: 'center'})
+  ScrollReveal().reveal('.top-footer__box', { delay: 400, origin: 'center', scale: 0.85 })
+  ScrollReveal().reveal('.footer-container', { delay: 400, origin: 'center'})
 })

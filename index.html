@@ -43,10 +43,12 @@
   <meta name="color-scheme" content="light">
   <!--#========== ADDS THE SITE TO THE HOME SCREEN AS AN ANDROID APP ==========#-->
   <meta name="mobile-web-app-capable" content="yes">
+  <!--#========== CONNECTING THE SCROLL REVEAL PLUGIN FOR A GREATER UX ==========#-->
+  <script defer src="js/scrollreveal.min.js"></script>
 </head>
 <body class="body">
   <!--#========== SITE HEADER ==========#-->
-  <header class="site-header site-header_indent">
+  <header class="site-header site-header_indent load-hidden">
     <div class="header-container site-header__container">
       <a class="site-header__logo" href="#">
         <img src="images/general/logo_header.svg" alt="Gitpod logo.">
@@ -84,19 +86,19 @@
         <h1 class="visually-hidden">
           A program that helps automate the process of writing code
         </h1>
-        <h2 class="section-hero__title">
+        <h2 class="section-hero__title load-hidden">
           Always <br> Ready to&nbsp;Code.
         </h2>
-        <p class="section-hero__desc">
+        <p class="section-hero__desc load-hidden">
           Spin up&nbsp;fresh, automated dev environments for each task, in&nbsp;the cloud, in&nbsp;seconds.
         </p>
-        <div class="section-hero__box box-hero">
+        <div class="section-hero__box box-hero load-hidden">
           <button class="box-hero__btn btn" type="button">Try Now</button>
           <p class="box-hero__text">
             Open a&nbsp;workspace. <br> Start from any Git context.
           </p>
         </div>
-        <ul class="section-hero__list">
+        <ul class="section-hero__list load-hidden">
           <li class="section-hero__item">
             <a class="section-hero__link section-hero__link_gl" href="#" target="_blank" rel="noopener" aria-label="Gitlab page"></a>
           </li>
@@ -107,7 +109,7 @@
             <a class="section-hero__link section-hero__link_bb" href="#" target="_blank" rel="noopener" aria-label="Bitbucket page"></a>
           </li>
         </ul>
-        <p class="section-hero__slogan slogan-hero">
+        <p class="section-hero__slogan slogan-hero load-hidden">
           <span class="slogan-hero__action">Select project</span>, <br> <span class="slogan-hero__line">check dependencies, checkout branch, view readme.txt, install tools, run build, run test,</span> <span class="slogan-hero__action">start coding.</span>
         </p>
       </div>
@@ -115,7 +117,7 @@
     <!--#========== SECTION | DEVELOPMENT ==========#-->
     <section class="section-development section-development_indent">
       <div class="container section-development__container">
-        <div class="section-development__left left-development">
+        <div class="section-development__left left-development load-hidden">
           <h2 class="left-development__title">
             Think CI/CD for dev environments
           </h2>
@@ -128,25 +130,25 @@
         <picture>
           <source srcset="images/development/code_picture.avif, images/development/code_picture@2x.avif 2x, images/development/code_picture@3x.avif 3x" type="image/avif">
           <source srcset="images/development/code_picture.webp, images/development/code_picture@2x.webp 2x, images/development/code_picture@3x.webp 3x" type="image/webp">
-          <img class="section-development__picture" src="images/development/code_picture.png" srcset="images/development/code_picture@2x.png 2x, images/development/code_picture@3x.png 3x" alt="The picture shows how the program works.">
+          <img class="section-development__picture load-hidden" src="images/development/code_picture.png" srcset="images/development/code_picture@2x.png 2x, images/development/code_picture@3x.png 3x" alt="The picture shows how the program works.">
         </picture>
       </div>
     </section>
     <!--#========== SECTION | REMOTE ==========#-->
     <section class="section-remote section-remote_indent">
       <div class="container section-remote__container">
-        <h2 class="section-remote__title title">
+        <h2 class="section-remote__title title load-hidden">
           Remote-first. Secure by&nbsp;design.
         </h2>
         <picture>
           <source srcset="images/remote/remote_picture.avif, images/remote/remote_picture@2x.avif 2x, images/remote/remote_picture@3x.avif 3x" type="image/avif">
           <source srcset="images/remote/remote_picture.webp, images/remote/remote_picture@2x.webp 2x, images/remote/remote_picture@3x.webp 3x" type="image/webp">
-          <img class="section-remote__picture" src="images/remote/remote_picture.png" srcset="images/remote/remote_picture@2x.png 2x, images/remote/remote_picture@3x.png 3x" alt="The picture shows how remote access is performed.">
+          <img class="section-remote__picture load-hidden" src="images/remote/remote_picture.png" srcset="images/remote/remote_picture@2x.png 2x, images/remote/remote_picture@3x.png 3x" alt="The picture shows how remote access is performed.">
         </picture>
-        <p class="section-remote__desc">
+        <p class="section-remote__desc load-hidden">
           You no&nbsp;longer need an&nbsp;over-powered laptop to&nbsp;code, Gitpod works just as&nbsp;smoothly on&nbsp;a&nbsp;Chromebook or&nbsp;iPad. All you need is&nbsp;a&nbsp;browser. Gitpod centralizes all source code and never stores it&nbsp;on&nbsp;insecure machines and networks.
         </p>
-        <div class="section-remote__box">
+        <div class="section-remote__box load-hidden">
           <a class="section-remote__extension section-remote__extension_chrome" href="#" target="_blank" rel="noopener">Chrome Extension</a>
           <a class="section-remote__extension section-remote__extension_firefox" href="#" target="_blank" rel="noopener">Firefox Extension</a>
         </div>
@@ -155,10 +157,10 @@
     <!--#========== SECTION | TESTIMONIALS ==========#-->
     <section class="section-testimonials section-testimonials_indent">
       <div class="container section-testimonials__container">
-        <h2 class="section-testimonials__title title">
+        <h2 class="section-testimonials__title title load-hidden">
           Used by&nbsp;400,000+&nbsp;developers.
         </h2>
-        <div class="glide section-testimonials__swiper">
+        <div class="glide section-testimonials__swiper load-hidden">
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
               <li class="glide__slide slide-glide glide__slide_ben">
@@ -258,7 +260,7 @@
             </ul>
           </div>
         </div>
-        <ul class="section-testimonials__list">
+        <ul class="section-testimonials__list load-hidden">
           <li class="section-testimonials__item section-testimonials__item_gl">
             <a href="#" class="section-testimonials__link" target="_blank" rel="noopener" aria-label="Gitlab page">
               <img src="images/partners/gitlab.svg" alt="Gitlab logo.">
@@ -325,11 +327,11 @@
     <!--#========== SECTION | START ==========#-->
     <section class="section-start section-start_indent">
       <div class="container section-start__container">
-        <h2 class="section-start__title title">
+        <h2 class="section-start__title title load-hidden">
           Get started now
         </h2>
         <div class="section-start__inner">
-          <div class="section-start__left left-start">
+          <div class="section-start__left left-start load-hidden">
             <h3 class="left-start__title">
               Connect Git repository
             </h3>
@@ -362,7 +364,7 @@
               </span>
             </div>
           </div>
-          <div class="section-start__right right-start">
+          <div class="section-start__right right-start load-hidden">
             <h3 class="right-start__title">
               Launch an&nbsp;example workspace
             </h3>
@@ -428,7 +430,7 @@
   <footer class="site-footer">
     <div class="site-footer__top top-footer">
       <div class="container top-footer__container">
-        <div class="top-footer__panel panel-footer">
+        <div class="top-footer__panel panel-footer load-hidden">
           <ul class="panel-footer__list">
             <li class="panel-footer__item">
               <h2 class="panel-footer__title">
@@ -558,7 +560,7 @@
             </li>
           </ul>
         </div>
-        <div class="top-footer__box box-footer">
+        <div class="top-footer__box box-footer load-hidden">
           <div class="box-footer__left left-box">
             <a class="left-box__logo" href="#">
               <img src="images/general/logo_footer.svg" alt="Gitpod logo.">
@@ -582,7 +584,7 @@
       </div>
     </div>
     <div class="site-footer__bottom bottom-footer">
-      <div class="footer-container">
+      <div class="footer-container load-hidden">
         <p class="bottom-footer__cookies cookies-footer">
           This website uses cookies to&nbsp;enhance the user experience. Read our <a class="cookies-footer__link" href="#">privacy policy</a> for more info.
         </p>
@@ -595,7 +597,6 @@
   <!--#========== CONNECT SCRIPTS ==========#-->
   <!--PS: Connecting external libraries and tools -->
   <script defer src="js/glide.min.js"></script>
-  <script defer src="js/scrollreveal.min.js"></script>
   <!--PS: Including our script files -->
   <script defer src="js/main.js"></script>
 </body>

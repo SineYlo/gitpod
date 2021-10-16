@@ -789,3 +789,8 @@
   color: var(--primary-color);
   background-color: var(--tenth-color);
 }
+
+/*|=============== SCROLL REVEAL  ===============|*/
+html.sr .load-hidden {
+  visibility: hidden;
+}
